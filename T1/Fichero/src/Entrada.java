@@ -19,8 +19,10 @@ public class Entrada {
         ficheroSinPuntero.list();
 
         // 1 -> Obtener todos los nombre de los ficheros del directorio llamado directorio
+
         // 2 -> Crear una subcarpeta en el directorio llamado directorio y crear en ella un fichero
         //   -> Obtener todos los nombre de los ficheros del directorio llamado directorio y el subdirectorio creado
+
         // 3 -> Listar el nombre de todos los ficheros del SISTEMA ( C:/User o /Users )
 
         // RECURSIVIDAD
@@ -29,9 +31,12 @@ public class Entrada {
         /*if (!ficheroSinPuntero.exists()) {
             try {
                 ficheroSinPuntero.createNewFile();
+                System.out.println("Fichero creado: " + ficheroSinPuntero.getName());
             } catch (IOException e) {
                 System.out.println("Fallo en la creacion del fichero");
             }
+        } else {
+            System.out.println("Fallo en la creacion del fichero"); // Mi aportación
         }*/
     }
 }
